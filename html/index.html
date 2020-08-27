@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <div class="calculator">
+        <form class="calculator_form">
+            <div class="calculator_display">
+                <input type="text" class="calc_display" id="display" value="0" disabled>
+            </div>
+
+            <div class="calculator_table">
+                <table>
+                    <tr>
+                        <td class="reset">
+                            <button type="button" value="c" class="calculator_key calculator_clear" id="reset">C</button>
+                        </td>
+                        <td class="plus">
+                            <button type="button" value="+" class="calculator_key calculator_plus operation" id="plus">+</button>
+                        </td>
+                        <td class="minus">
+                            <button type="button" value="-" class="calculator_key calculator_minus operation" id="minus">-</button>
+                        </td>
+                        <td class="multiply">
+                            <button type="button" value="*" class="calculator_key calculator_multiply operation" id="multiply">*</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="seven">
+                            <button type="button" value="7" class="calculator_key calculator_seven number">7</button>
+                        </td>
+                        <td class="eight">
+                            <button type="button" value="8" class="calculator_key calculator_eight number">8</button>
+                        </td>
+                        <td class="nine">
+                            <button type="button" value="9" class="calculator_key calculator_nine number">9</button>
+                        </td>
+
+                        <td class="division">
+                            <button type="button" value="/" class="calculator_key calculator_division operation" id="division">/</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="four">
+                            <button type="button" value="4" class="calculator_key calculator_four number">4</button>
+                        </td>
+                        <td class="five">
+                            <button type="button" value="5" class="calculator_key calculator_five number">5</button>
+                        </td>
+                        <td class="six">
+                            <button type="button" value="6" class="calculator_key calculator_six number">6</button>
+                        </td>
+                        <td class="dot">
+                            <button type="button" value="." class="calculator_key calculator_dot" id="decimal">.</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="one">
+                            <button type="button" value="1" class="calculator_key calculator_one number">1</button>
+                        </td>
+                        <td class="two">
+                            <button type="button" value="2" class="calculator_key calculator_two number">2</button>
+                        </td>
+                        <td class="three">
+                            <button type="button" value="3" class="calculator_key calculator_three number">3</button>
+                        </td>
+                        <td class="zero">
+                            <button type="button" value="0" class="calculator_key calculator_zero number">0</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="equal">
+                            <button type="button" value="=" class="calculator_key calculator_equal" id="result">=</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="../js/server.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+</html>

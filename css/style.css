@@ -1,0 +1,17 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  color: red;
+}
+
+.calculator_key:hover {
+  background-color: yellow;
+}
+
+#display {
+  text-align: right;
+}
